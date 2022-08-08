@@ -6,12 +6,16 @@
 #include <iostream>
 
 // @lc code=start
-class Solution {
+class Solution
+{
 public:
-    int mySqrt(int x) {
-        std::cout << x << std::endl;
-        return 0;
+    int mySqrt(int x)
+    {
+        // Find root of a number using Newton’s method
+        long r = x;
+        while (r * r > x)
+            r = (r + x / r) / 2;
+        return r;
     }
 };
 // @lc code=end
-
