@@ -1,18 +1,5 @@
 #pragma once
-
-#include <string>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <stack>
-#include <unordered_map>
-#include <cmath>
-#include <cstring>
-#include <cctype>
-
-
+#include "bits/stdc++.h"
 
 struct ListNode
 {

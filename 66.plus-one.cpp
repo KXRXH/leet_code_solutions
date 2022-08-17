@@ -3,7 +3,7 @@
  *
  * [66] Plus One
  */
-#include "cppstd.h"
+#include "bits/stdc++.h"
 // @lc code=start
 class Solution
 {
